@@ -1,0 +1,199 @@
+body {
+    background-color: rgb(207, 204, 204);
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: auto;
+    height: 100vh;
+}
+
+.side-bar {
+    background-color: rgb(218, 218, 218);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 18.5vw;
+    padding: 28px 13px 21px 13px;
+}
+
+.main {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 81.5vw;
+    flex-direction: column;
+    padding: 28px 60px 21px 51px;
+}
+
+
+/*
+-----------------------
+   SIDE BAR CONTENT 
+-----------------------
+*/
+
+.rectangle-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(216, 182, 118, 1);
+    width: 100%;
+    height: 75px;
+    cursor: pointer;
+}
+
+
+/* FOUR RECTANGLE LIST */
+
+.rectangle-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.rectangle-list>ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.rectangle-list>ul>li {
+    background-color: rgba(126, 118, 216, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.rectangle-list>ul>li:last-child {
+    margin-bottom: 0px;
+}
+
+
+/* TWO RECTANGLE LIST OPTIONS */
+
+.rectangle-options {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.rectangle-options>ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.rectangle-options>ul>li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin-right: 10px;
+    width: 100%;
+    background-color: rgba(149, 216, 118, 1);
+}
+
+.rectangle-options>ul>li:last-child {
+    margin-right: 0;
+}
+
+
+/*
+-----------------------
+   MAIN CONTENT 
+-----------------------
+*/
+
+.rectangle-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 60px 0px;
+    /* height: 120px; */
+    background-color: rgba(149, 216, 118, 1);
+}
+
+
+/* FOUR RECTANGLE SECTION*/
+
+.section-four-rectangle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.medium-rectangle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.medium-rectangle>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 131px;
+    background-color: hotpink;
+    margin-right: 25px;
+}
+
+
+/* ACERTO DE MARGIN LAST CHILD */
+
+.medium-rectangle>div:last-child {
+    margin-right: 0px;
+}
+
+.medium-rectangle:last-child {
+    margin-bottom: 0px;
+}
+
+
+/* RED SQUARE LIST */
+
+.rectangle-list-red {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(243, 84, 84, 1);
+    width: 100%;
+    height: 193px;
+}
+
+.rectangle-list-red>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(236, 205, 205, 0.3);
+    width: 100%;
+    height: 153px;
+    margin-right: 25px;
+}
+
+
+/* ACERTO DE MARGIN FIRST CHILD */
+
+.rectangle-list-red>div:first-child {
+    margin-left: 25px;
+}
